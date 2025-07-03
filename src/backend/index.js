@@ -12,15 +12,23 @@ const port = 8080;
 
 
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static(path.join(__dirname, 'public'))); 
+app.use(express.static(path.join(__dirname, '../frontend/public'))); 
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
 
+
+//homepage route
 app.get("/home",(req,res)=>{
     res.render("index");
 });
+
+
+
+
+
+
 
 
 

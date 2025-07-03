@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+
+      
+
+
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/homepage.css">
+
 </head>
 <body>
 
@@ -18,14 +25,14 @@
             <div class="hero_section_Continar">
                 <!--Tells about the business-->
                 <div class="left_hero_section">
-                    <h1>
+                    <h1 id="hero_heading">
                         Indulge in Sweet<br> Delights Just fo You
                     </h1>
-                    <p>Discover a world of irresistible sweets and snacks that cater o every craving.Treat yourself to our delightful selection and experience the joy of every bite!</p>
+                    <p id="hero_info">Discover a world of irresistible sweets and snacks that cater o every craving.Treat yourself to our delightful selection and experience the joy of every bite!</p>
 
                     <div class="hero_section_button">
-                        <button>Shop</button>
-                        <button>Learn More</button>
+                        <button class="shop_button hero_button">Shop</button>
+                        <button class="learn_button hero_button">Learn More</button>
                     </div>
 
                 </div>
@@ -33,6 +40,8 @@
                 <!--right section, will have the collage of picture or videos-->
 
                 <div class="right_hero_section">
+
+                    <img id="hero_img" src="/assets/images/homepage/homepageHero3.jpg" alt="">
 
                 </div>
 
@@ -52,13 +61,13 @@
                 <div class="services_gridContianer">
                     <!--First service-->
                     <div>
-                        <img src="" alt="">
+                        <img src="/assets/icons/gifts.svg" alt="">
                         <h2>Discover Our Exquisite <br> Sweets Collection</h2>
                         <p>Our sweets are crafted to bring joy to every moment.</p>
                     </div>
                     <!--Second service-->
                     <div>
-                        <img src="" alt="">
+                        <img src="/assets/icons/cookie.svg" alt="">
                         <h2>Discover Our Exquisite <br> Sweets Collection</h2>
                         <p>Our sweets are crafted to bring joy to every moment.</p>
                     </div>
@@ -66,16 +75,16 @@
                     <!--Third service-->
 
                     <div>
-                        <img src="" alt="">
+                        <img src="/assets/icons/candy.svg" alt="">
                         <h2>Discover Our Exquisite <br> Sweets Collection</h2>
                         <p>Our sweets are crafted to bring joy to every moment.</p>
                     </div>
 
                 </div>
                 <!--Call to action button-->
-                <div>
-                    <button>Shop</button>
-                    <button>Explore</button>
+                <div class="services_button_contianer">
+                    <button class="shop_button">Shop</button>
+                    <button class="explore_button">Explore</button>
                 </div>
 
             </div>
@@ -90,29 +99,32 @@
 
             </div>
 
-            <div>
+            <div class="products_info">
                 <!--first img-info-->
                 <div>
                     <div>
-                        <img src="" alt="">
+                        <a href=""><img class="product_overview_img" src="/assets/images/homepage/choc-gift3.jpg" alt=""></a>
+                        
                     </div>
-                    <a href=""></a>
+                    <a href="">Explore</a>
                 </div>
                 <!--second img-info-->
 
                 <div>
                     <div>
-                        <img src="" alt="">
+                        <a href=""><img class="product_overview_img" src="/assets/images/homepage/cokies.jpg" alt=""></a>
+                        
                     </div>
-                    <a href=""></a>
+                    <a href="">Explore</a>
                 </div>
 
                 <!--third img-info-->
                 <div>
                     <div>
-                        <img src="" alt="">
+                        <a href=""><img class="product_overview_img" src="/assets/images/homepage/candies.jpg" alt=""></a>
+                        
                     </div>
-                    <a href=""></a>
+                    <a href="">Explore</a>
                 </div>
             </div>
 
@@ -121,19 +133,24 @@
         <!--newsletter and tips subscribtion section-->
 
         <section>
-            <div>
-                <h2>Discover Your Sweet<br> Indulgence</h2>
-            </div>
-            <div>
-                
-                <p>
-                    Dive into our delightfull selection of candies, chocoltes, gifts and snacks that will satify everr craving. Sign up for our newsletter to stay updated on the latest treats and exclusive offers!
-                </p>
 
-                <div>
-                    <button>Explore</button>
-                    <button>Subscribe</button>
+            <div class="newsletter_subscribetion">
+                <div >
+                    <h2>Discover Your Sweet<br> Indulgence</h2>
                 </div>
+                <div>
+                    
+                    <p>
+                        Dive into our delightfull selection of candies, chocoltes, gifts and snacks that will satify everr craving. Sign up for our newsletter to stay updated on the latest treats and exclusive offers!
+                    </p>
+
+                    <div>
+                        <button>Explore</button>
+                        <button>Subscribe</button>
+                    </div>                
+
+                </div>
+
             </div>
         </section>        
 
