@@ -1,0 +1,54 @@
+
+/* Hero section style */
+
+.hero_section_Continar{
+    display: flex;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    align-items: center;
+    border: red solid;
+
+}
+
+
+/*buttons*/
+
+.hero_button{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border-style: none; 
+    margin-top: 16px;
+}
+
+
+/*services section*/
+
+.services_gridContianer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+
+/*Products overview*/
+
+.products_info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+
+.product_overview_img{
+    width: 350px;
+    height: 350px;
+}
+
+
+/*newsletter and subscribtion*/
+
+.newsletter_subscribetion{
+    display: flex;
+    
+}
