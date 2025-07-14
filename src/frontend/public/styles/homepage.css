@@ -1,7 +1,4 @@
-main{
-    padding-left: 5%;
-    padding-right: 5%;
-}
+
 
 .sections{
     margin-bottom: 100px;
@@ -18,12 +15,13 @@ main{
 
 /*buttons*/
 
-.hero_button{
+.button_common{
     height: 40px;
     width: 100px;
     border-radius: 5px;
     border-style: none; 
     margin-top: 16px;
+    cursor: pointer;
 }
 
 
@@ -90,3 +88,6 @@ main{
     justify-content: space-between;
     
 }
+
+
+

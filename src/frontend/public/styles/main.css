@@ -1,5 +1,109 @@
 *{
     padding: 0;
     margin: 0;
+    color: black;
 }
+
+html{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/*font boilerpoint*/
+
+:root{
+    --headingSize:  500px;
+    --subheadingSize: ;
+    --headingFont: ;
+    --textsFont: ;
+}
+
+
+/*Navbar styles*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    margin-top: 15px;
+
+}
+
+#left_navbarLinks a{
+    text-decoration: none;
+}
+
+#right_navbarLinks{
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar_links ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#navbar_links ul li{
+    list-style: none;
+ 
+}
+
+#navbar_links ul li a{
+    text-decoration: none;
+
+}
+
+#right_navButton{
+    margin-left: 15px;
+}
+
+#navbar_Moreicon{
+    transform: rotate(90deg);
+}
+
+/*Footer*/
+
+.footer_main_container,.bottom_footer_links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.left_footer div{
+    margin-bottom: 15px;
+}
+
+.right_footer{
+    display: flex;
+    gap: 30px;
+
+}
+
+.right_footer1{
+    display: flex;
+    flex-direction: column;
+}
+
+.right_footer2{
+    display: flex;
+    flex-direction: column;
+}
+
+.right_footer1 a,.right_footer2 a{
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.right_bottom_footer a{
+    margin-right: 10px;
+    text-decoration: none;
+    
+}
+
+.left_bottom_footer a{
+    text-decoration: none;
+}
+
 
